@@ -74,3 +74,12 @@ h3 {
     text-decoration: none;
     color:black;
 }
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
