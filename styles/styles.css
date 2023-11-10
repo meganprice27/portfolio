@@ -120,8 +120,13 @@ h3 {
 @media (max-width: 576px) {
   h1 {
     font-size: 45px;
+    
   }
   h2 {
     font-size: 20px;
+  }
+
+  .project-examples img {
+    margin-bottom: 10px;
   }
 }
