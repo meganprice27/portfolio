@@ -26,7 +26,7 @@ h3 {
 .contact-box {
   background-color: rgb(255, 228, 198);
   padding: 35px 75px;
-  margin: 50px;
+  margin: 70px 100px;
   border-radius: 15px;
 }
 
@@ -40,14 +40,18 @@ h3 {
 }
 
 .contact-link a{
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     padding: 25px;
     background-color: rgb(255, 228, 198);
     border-radius: 15px;
-    border: 0.5px solid rgb(255, 198, 133);
+    border: 0.5px solid rgb(255, 222, 184);
     box-shadow: 10px 5px 5px rgb(255, 198, 133);
     color: black;
+}
+
+.contact-link a:hover {
+    background: rgb(253, 220, 181);
 }
 
 .social-media {
