@@ -1,20 +1,21 @@
 body {
     background: #fdfdf4;
+    font-family: "Poppins", sans-serif;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  text-align: center;
   font-size: 80px;
+  text-align: center;
   margin-top: 60px;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
   text-align: center;
   padding: 10px;
+  opacity: 0.8;
 }
 
 h3 {
@@ -30,7 +31,8 @@ h3 {
 }
 
 .work-together {
-    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
 }
 
 .contact-link {
@@ -38,7 +40,6 @@ h3 {
 }
 
 .contact-link a{
-    font-family: "Poppins", sans-serif;
     font-size: 12px;
     text-decoration: none;
     padding: 25px;
@@ -57,4 +58,15 @@ h3 {
 .social-media a {
   padding: 20px;
   color: rgb(255, 198, 133);
+}
+
+.open-source-footer {
+    text-align: center;
+    padding: 15px;
+    opacity: 0.7;
+}
+
+.open-source-footer a {
+    text-decoration: none;
+    color:black;
 }
