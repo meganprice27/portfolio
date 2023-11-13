@@ -22,7 +22,7 @@ h1 {
 h2 {
   font-weight: normal;
   text-align: center;
-  padding: 10px;
+  padding: 10px 5px 5px;
   opacity: 0.8;
 }
 
@@ -37,7 +37,7 @@ h3 {
 .page-links {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 16px;
 }
 
 .page-links a {
@@ -76,10 +76,15 @@ h3 {
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
   color: black;
+  opacity: 0.8;
 }
 
 .project-examples a:hover {
   background: rgb(253, 220, 181);
+}
+
+.learn-more {
+  padding: 20px 0 0 0;
 }
 
 .page-title {
@@ -107,6 +112,7 @@ h3 {
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
   color: black;
+  opacity: 0.8;
 }
 
 .about-section a:hover {
@@ -141,6 +147,7 @@ margin: 25px 0;
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
   color: black;
+  opacity: 0.8;
 }
 
 .project-description a:hover {
@@ -192,6 +199,7 @@ padding: 5px;
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
   color: black;
+  opacity: 0.8;
 }
 
 .contact-link a:hover {
@@ -233,6 +241,10 @@ padding: 5px;
 
   .project-examples img {
     margin-bottom: 10px;
+  }
+
+  .example-details {
+    margin-bottom: 40px;
   }
 
   .page-title {
