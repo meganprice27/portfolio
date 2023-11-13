@@ -129,6 +129,25 @@ margin: 25px 0;
   background: rgb(253, 220, 181);
 }
 
+.contact-info {
+  margin: 50px;
+}
+
+.contact-info p {
+text-align: center;
+font-size: 20px;
+padding: 5px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
 .contact-box {
   background-color: var(--brand-color);
   padding: 35px 75px;
@@ -224,6 +243,10 @@ margin: 25px 0;
   .project-description {
     padding: 10px;
     margin: 10px;
+  }
+
+  .contact-info p {
+    font-size: 18px;
   }
 
   .open-source-footer {
