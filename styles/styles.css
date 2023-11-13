@@ -117,6 +117,22 @@ h3 {
   color: black;
 }
 
+.about-me-title {
+  text-align: left;
+  padding: 50px 0 25px 200px;
+  font-size: 50px;
+}
+
+.about-section p {
+margin: 50px 0;
+}
+
+.personal-image {
+  max-width: 60%;
+  border-radius: 200px;
+
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 45px;
