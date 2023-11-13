@@ -7,11 +7,6 @@ body {
   font-family: "Poppins", sans-serif;
   background: #fdfdf4;
 }
-
-header {
-  background: var(--brand-color);
-}
-
 h1,
 h3 {
   font-family: "Playfair Display", serif;
@@ -33,6 +28,10 @@ h2 {
 
 h3 {
   font-size: 35px;
+}
+
+.hero {
+  background: var(--brand-color);
 }
 
 .page-links {
@@ -62,6 +61,25 @@ h3 {
   padding: 4px;
   background: var(--brand-color);
   border-radius: 20px;
+}
+
+.project-examples {
+  text-align: center;
+}
+
+.project-examples a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px 20px;
+  background-color: rgb(255, 228, 198);
+  border-radius: 15px;
+  border: 0.5px solid rgb(255, 222, 184);
+  box-shadow: 5px 5px 5px rgb(212, 189, 162);
+  color: black;
+}
+
+.project-examples a:hover {
+  background: rgb(253, 220, 181);
 }
 
 .page-title {
@@ -130,7 +148,8 @@ margin: 25px 0;
 }
 
 .contact-info {
-  margin: 50px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .contact-info p {
