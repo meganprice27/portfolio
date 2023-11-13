@@ -95,13 +95,23 @@ h3 {
   background: rgb(253, 220, 181);
 }
 
+.projects img {
+  padding: 4px;
+  background: var(--brand-color);
+  border-radius: 20px;
+}
+
 .project-description {
   padding: 50px;
 }
 
 .project-description h3 {
-font-size: 60px;
-line-height: 1.5;
+font-size: 50px;
+margin: 25px 0;
+}
+
+.project-description p {
+  margin-bottom: 40px;
 }
 
 .project-description a {
