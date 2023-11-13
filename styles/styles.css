@@ -163,4 +163,32 @@ line-height: 1.5;
   .project-examples img {
     margin-bottom: 10px;
   }
+
+  .about-me-title {
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .about-section p {
+    text-align: center;
+    padding: 0 5px;
+  }
+
+  .project-link {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-section img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px
+  }
+
+  .open-source-footer {
+    font-size: 12px;
+  }
 }
