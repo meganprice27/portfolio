@@ -9,6 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: #fdfdf4;
 }
+
 h1,
 h3 {
   font-family: "Playfair Display", serif;
@@ -68,6 +69,7 @@ nav a:hover {
 
 .hero {
   background: var(--brand-background-color);
+  padding: 75px 20px;
 }
 
 .page-links {
@@ -239,6 +241,10 @@ padding: 5px;
   h2 {
     font-size: 20px;
     padding: 30px;
+  }
+
+  .hero {
+    padding: 10px;
   }
 
   .project-examples h2 {
