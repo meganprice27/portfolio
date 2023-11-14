@@ -1,7 +1,8 @@
 :root {
-  --brand-color: rgb(253, 239, 224);
+  --brand-background-color: rgb(253, 239, 224);
   --secondary-color: rgb(236, 182, 120);
   --button-background-color: rgb(255, 228, 198);
+  --button-hover-color:rgb(253, 220, 181);
 }
 
 body {
@@ -66,7 +67,7 @@ nav a:hover {
 }
 
 .hero {
-  background: var(--brand-color);
+  background: var(--brand-background-color);
 }
 
 .page-links {
@@ -87,6 +88,7 @@ nav a:hover {
 }
 
 .project-examples {
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 35px;
   padding: 40px;
@@ -94,15 +96,15 @@ nav a:hover {
 
 .project-examples img {
   padding: 4px;
-  background: var(--brand-color);
+  background: var(--brand-background-color);
   border-radius: 20px;
 }
 
-.project-examples {
-  text-align: center;
+.project-examples p {
+  padding: 15px;
 }
 
-.project-examples a {
+.project-link a {
   font-size: 15px;
   text-decoration: none;
   padding: 15px 20px;
@@ -114,12 +116,8 @@ nav a:hover {
   opacity: 0.8;
 }
 
-.project-examples a:hover {
-  background: rgb(253, 220, 181);
-}
-
-.learn-more {
-  padding: 20px 0 0 0;
+.project-link a:hover {
+  background: var(--button-hover-color);
 }
 
 .page-title {
@@ -141,55 +139,24 @@ nav a:hover {
   text-align: center;
 }
 
-.about-section a {
-  font-size: 15px;
-  text-decoration: none;
-  padding: 15px 20px;
-  background-color: var(--button-background-color);
-  border-radius: 15px;
-  border: 0.5px solid rgb(255, 222, 184);
-  box-shadow: 5px 5px 5px rgb(212, 189, 162);
-  color: black;
-  opacity: 0.8;
-}
-
-.about-section a:hover {
-  background: rgb(253, 220, 181);
-}
-
 .projects img {
   padding: 4px;
-  background: var(--brand-color);
+  background: var(--brand-background-color);
   border-radius: 20px;
+  margin-bottom: 70px;
 }
 
 .project-description {
-  padding: 50px;
+  padding: 15px 50px;
 }
 
 .project-description h3 {
 font-size: 50px;
-margin: 25px 0;
+padding: 20px 0;
 }
 
 .project-description p {
   margin-bottom: 40px;
-}
-
-.project-description a {
-  font-size: 15px;
-  text-decoration: none;
-  padding: 15px 20px;
-  background-color: var(--button-background-color);
-  border-radius: 15px;
-  border: 0.5px solid rgb(255, 222, 184);
-  box-shadow: 5px 5px 5px rgb(212, 189, 162);
-  color: black;
-  opacity: 0.8;
-}
-
-.project-description a:hover {
-  background: rgb(253, 220, 181);
 }
 
 .contact-info {
@@ -213,7 +180,7 @@ padding: 5px;
 }
 
 .contact-box {
-  background-color: var(--brand-color);
+  background-color: var(--brand-background-color);
   padding: 35px 75px;
   margin: 70px 100px;
   border-radius: 15px;
@@ -241,7 +208,7 @@ padding: 5px;
 }
 
 .contact-link a:hover {
-  background: rgb(253, 220, 181);
+  background:var(--button-hover-color);
 }
 
 .social-media {
@@ -274,8 +241,13 @@ padding: 5px;
     padding: 30px;
   }
 
-  .project-description h3 {
+  .project-examples h2 {
     font-size: 35px;
+    padding: 10px;
+  }
+
+  .project-examples p {
+    padding: 10px 5px 15px;
   }
 
   .project-examples img {
@@ -312,7 +284,7 @@ padding: 5px;
 
   .project-description {
     padding: 10px;
-    margin: 10px;
+    margin: 5px 10px;
   }
 
   .contact-info p {
