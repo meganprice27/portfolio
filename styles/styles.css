@@ -1,6 +1,7 @@
 :root {
   --brand-color: rgb(253, 239, 224);
   --secondary-color: rgb(236, 182, 120);
+  --button-background-color: rgb(255, 228, 198);
 }
 
 body {
@@ -28,6 +29,40 @@ h2 {
 
 h3 {
   font-size: 35px;
+}
+
+nav {
+  padding: 18px 0;
+  margin: 0;
+}
+
+nav div {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+ margin-left: 15px;
+}
+
+nav li.active a {
+font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -71,7 +106,7 @@ h3 {
   font-size: 15px;
   text-decoration: none;
   padding: 15px 20px;
-  background-color: rgb(255, 228, 198);
+  background-color: var(--button-background-color);
   border-radius: 15px;
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
@@ -88,8 +123,8 @@ h3 {
 }
 
 .page-title {
-  text-align: left;
-  padding: 50px 0 50px 100px;
+  text-align: center;
+  padding: 30px 30px 60px;
   font-size: 50px;
 }
 
@@ -101,13 +136,16 @@ h3 {
 .about-section img {
   max-width: 60%;
   border-radius: 250px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .about-section a {
   font-size: 15px;
   text-decoration: none;
   padding: 15px 20px;
-  background-color: rgb(255, 228, 198);
+  background-color: var(--button-background-color);
   border-radius: 15px;
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
@@ -142,7 +180,7 @@ margin: 25px 0;
   font-size: 15px;
   text-decoration: none;
   padding: 15px 20px;
-  background-color: rgb(255, 228, 198);
+  background-color: var(--button-background-color);
   border-radius: 15px;
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
@@ -194,7 +232,7 @@ padding: 5px;
   font-size: 15px;
   text-decoration: none;
   padding: 17px 20px;
-  background-color: rgb(255, 228, 198);
+  background-color: var(--button-background-color);
   border-radius: 15px;
   border: 0.5px solid rgb(255, 222, 184);
   box-shadow: 5px 5px 5px rgb(212, 189, 162);
@@ -233,6 +271,7 @@ padding: 5px;
   }
   h2 {
     font-size: 20px;
+    padding: 30px;
   }
 
   .project-description h3 {
