@@ -122,6 +122,10 @@ nav a:hover {
   background: var(--button-hover-color);
 }
 
+.second-row {
+  margin-top: 60px;
+}
+
 .page-title {
   text-align: center;
   padding: 30px 30px 60px;
